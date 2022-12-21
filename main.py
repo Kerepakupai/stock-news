@@ -69,5 +69,5 @@ if diff_percent > 5:
         message = client.messages.create(
             body=article,
             from_=TWILIO_PHONE_NUMBER,
-            to='+56951149245'
+            to='MY_PHONE_NUMBER'
         )
